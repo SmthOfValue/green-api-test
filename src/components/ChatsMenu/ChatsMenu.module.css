@@ -1,0 +1,32 @@
+.menu {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+.heading {
+    font-size: 16px;
+    line-height: 20px;
+    background-color: #f0f2f5;
+    text-align: center;
+    margin: 0;
+    padding: 17px 0 17px 0;
+}
+
+.chats_list {
+    margin: 0;
+    padding: 0 24px 0 0;
+    overflow-y: scroll;
+    cursor: pointer;
+    height: 100%;
+}
+
+.chats_list::-webkit-scrollbar {
+    width: 4px;
+}
+
+.students_list::-webkit-scrollbar-thumb {
+    background-color: #a9a9a9;   
+}
+

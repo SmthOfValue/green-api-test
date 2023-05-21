@@ -1,0 +1,60 @@
+.chat {
+    width: 980px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.heading {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    background-color: #f0f2f5;
+    padding: 17px 0 17px 20px;
+    margin: 0;
+    border-left: 1px #a9a9a9 solid;
+}
+
+.dialogue {
+    background-color: #efeae2;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0 40px 0 40px;
+}
+
+.input_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f0f2f5;
+}
+
+.message_input {
+    margin: 0 4px 0 4px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+}
+
+.send_button {
+    background: transparent url('../../assets/icon-send.png') center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 25px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
