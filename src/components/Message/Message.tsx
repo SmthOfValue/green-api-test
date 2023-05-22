@@ -3,11 +3,10 @@ import styles from './Message.module.css';
 
 interface IMessage {
     msg: string,
-    time: string,
     sent: boolean
 }
 
-export const Message: FC<IMessage> = ({msg, time, sent}) => {
+export const Message: FC<IMessage> = ({msg, sent}) => {
 
     const setMessageClass = (messageIsSent: boolean): string => {
         if (messageIsSent) {
@@ -20,7 +19,6 @@ export const Message: FC<IMessage> = ({msg, time, sent}) => {
     return (
         <li className={setMessageClass(sent)}>
             <p className={styles.message_text}>{msg}</p>
-            <p className={styles.message_time}>{time}</p>
         </li>
     )
 }

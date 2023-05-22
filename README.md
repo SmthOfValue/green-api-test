@@ -1,13 +1,18 @@
-# Getting Started with Create React App
+# Тестовое задание для Грин-Апи
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Пользовательский интерфейс для отправки и получения сообщений WhatsApp.
 
-## Available Scripts
+## Функционал
 
-In the project directory, you can run:
+* Настройка учетных данных для использования Green-Api (idInstance, apiTokenInstance)
+* Отправка текстовых сообщений
+* Получение текстовых сообщений
 
-### `npm start`
+### Шаги для локального запуска
 
+1. Склонировать репозиторий локально.
+2. Установить зависимости через npm install
+3. Запустить приложение через npm run start
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 

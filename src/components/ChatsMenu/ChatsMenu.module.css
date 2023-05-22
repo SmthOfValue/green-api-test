@@ -26,7 +26,22 @@
     width: 4px;
 }
 
-.students_list::-webkit-scrollbar-thumb {
+.chats_list::-webkit-scrollbar-thumb {
     background-color: #a9a9a9;   
 }
 
+.item {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    margin: 0 0 0 10px;
+}
+
+.input {
+    width: 100%;
+}
